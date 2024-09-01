@@ -10,3 +10,5 @@ Important steps for Git workflow
 6. Review changes with git diff
 
 example_file.txt
+
+Hello, different level of learning.
