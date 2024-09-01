@@ -8,3 +8,5 @@ Important steps for Git workflow
 4. Stage changes for commit with git add
 5. Commit changes to version history with git commit
 6. Review changes with git diff
+
+example_file.txt
