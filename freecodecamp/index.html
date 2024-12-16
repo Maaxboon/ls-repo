@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <form id="survey-form">
+            <h1 id="title">CITAM Karen Football</h1>
+            <p id="description">Take a few minutes to register to CITAM Karen Football</p>
+
+            <label id="name-label" for="name">Name:</label>
+            <input id="name" type="text" name="name" required placeholder="Enter Your Name" />
+
+            <label id="email-label" for="email">Email:</label>
+            <input id="email" type="email" name="email" required placeholder="Enter Your Email" />
+
+            <label id="number-label" for="number">Jersey Number:</label>
+            <input id="number" type="number" name="jersey-number" min="1" max="36" placeholder="Jersey Number" />
+
+            <p>Preferred Playing Position:</p>
+            <select id="dropdown" name="position" required>
+                <option value="">(Select One)</option>
+                <option value="goalkeeper">Goalkeeper</option>
+                <option value="defender">Defender</option>
+                <option value="midfielder">Midfielder</option>
+                <option value="forward">Forward</option>
+            </select>
+
+            <p>Preferred Training Day:</p>
+            <label>
+                <input name="fav-day" type="radio" value="saturday" required />
+                Saturday
+            </label>
+            <label>
+                <input name="fav-day" type="radio" value="sunday" required />
+                Sunday
+            </label>
+
+            <p>Are you looking to join a Bible Study Group?</p>
+            <label>
+                <input type="checkbox" name="study" value="yes" />
+                Yes
+            </label>
+            <label>
+                <input type="checkbox" name="study" value="maybe" />
+                Maybe
+            </label>
+
+            <label for="home">Where do you stay?</label>
+            <textarea id="home" name="address" placeholder="Enter your home address"></textarea>
+
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </body>
+
+</html>
